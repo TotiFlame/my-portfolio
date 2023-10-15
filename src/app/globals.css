@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.titles-font {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.subtitles-font {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card-title {
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 500;
+  font-size: large;
+  color: white;
+}
+
+@layer components {
+  .header-links{
+    @apply text-[#c1c1c1] font-light px-1 py-0.5 rounded hover:bg-[#E2DCC9] hover:text-black transition;
+  }
+
+  .footer-links{
+    @apply text-[#c1c1c1] text-sm font-light flex items-center hover:text-zinc-300 transition;
+  }
+
+  .arrow-link{
+    @apply text-lg ml-1;
+  }
+
+  .icons{
+    @apply w-10 h-10 hover:cursor-pointer;
+  }
+}
