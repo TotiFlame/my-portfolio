@@ -4,7 +4,7 @@ function Home() {
             <h1 className="titles-font text-white mb-8">SANTIAGO FERNANDEZ</h1>
             <a
                 href="/my-CV.pdf"
-                download="Santiago Fernandez CV"
+                download="Santiago-Fernandez-CV"
                 className="text-white p-4 bg-blue-500 rounded-xl"
             >
                     Download my CV

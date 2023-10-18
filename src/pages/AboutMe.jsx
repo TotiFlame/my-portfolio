@@ -1,3 +1,5 @@
+import icons from '@/components/IconList.json'
+
 function AboutMe() {
     return (
         <section id="about-me-section" className="w-full h-full flex justify-evenly items-center">
@@ -18,15 +20,15 @@ function AboutMe() {
                     </div>
                     <div className="flex w-full flex-col flex-1 items-center jutify-center ">
                         <h3 className="subtitles-font text-white mt-8">TECHNOLOGIES</h3>
-                        <div className="w-3/5 flex flex-row justify-evenly mt-16">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className="icons" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className="icons" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" className="icons" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" className="icons" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" className="icons" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" className="icons" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" className="icons" />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" className="icons" />
+                        <div className="w-3/4 flex flex-row justify-evenly mt-16">
+                            {
+                                icons.map((item, index) => (
+                                    <div className="icon-container">
+                                        <img src={item.icon} className="w-10 h-10 hover:cursor-pointer" />
+                                        <span className="icon-name" style={{ color: item.color }}>{item.name}</span>
+                                    </div>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
