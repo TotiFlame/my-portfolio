@@ -6,7 +6,7 @@ function AboutMe() {
                 <div className="w-full h-full flex justify-center items-center flex-col">
                     <h3 className="subtitles-font text-white mt-16">WHO AM I?</h3>
                     <div className="grid grid-cols-3 w-5/6 flex-1 items-center justify-center">
-                        <div className="w-60 h-60 rounded-3xl col-start-1 col-end-2">
+                        <div className="scroll-animation w-60 h-60 rounded-3xl col-start-1 col-end-2">
                             <img src="/toti.jpeg" alt="" className="rounded-3xl" />
                         </div>
                         <p className="text-white col-start-2 col-end-4">
