@@ -67,13 +67,14 @@
                 "color": "#47BA88"
             },
             {
-                "name": "CSS",
-                "color": "#2296F3"
-            },
-            {
                 "name": "Laravel",
                 "color": "#FF291B"
+            },
+            {
+                "name": "CSS",
+                "color": "#2296F3"
             }
+            
         ]
     }
 ]
