@@ -1,0 +1,79 @@
+[
+    {
+        "title": "PETMATE LANDING PAGE",
+        "description": "Landing page for my school final project, which was about an App to control a pet feeder, the page was to show the team and what the project is about.",
+        "image": "/ss-petmate.png",
+        "githubLink": "https://github.com/Holberton-PetMate/landing-page",
+        "pageLink": "https://totiflame.github.io/petmate-landing-page",
+        "technologies": [
+            {
+                "name": "HTML",
+                "color": "#F36517"
+            },
+            {
+                "name": "JavaScript",
+                "color": "#F0DB4F"
+            },
+            {
+                "name": "CSS",
+                "color": "#2296F3"
+            }
+        ]
+    },
+    {
+        "title": "PETMATE APP",
+        "description": "This is an App where you can control your PetMate (pet feeder), set a time and amount to feed them, have statistics about your pet's nutrition and status of the stock",
+        "image": "/petmate.jpg",
+        "githubLink": "https://github.com/Holberton-PetMate/mobile-app",
+        "technologies": [
+            {
+                "name": "React",
+                "color": "#61DBFB"
+            },
+            {
+                "name": "TypeScript",
+                "color": "#017ACC"
+            },
+            {
+                "name": "CSS",
+                "color": "#2296F3"
+            }
+        ]
+    },
+    {
+        "title": "MY PORTFOLIO",
+        "description": "This is my page to show you my projects, skills, and to let you know more about me. I created the portfolio inspired by one of my favorite clothing brands",
+        "image": "/my-portfolio-ss.png",
+        "githubLink": "https://github.com/TotiFlame/my-portfolio",
+        "pageLink": "https://my-portfolio-gamma-sepia.vercel.app/",
+        "technologies": [
+            {
+                "name": "React",
+                "color": "#61DBFB"
+            },
+            {
+                "name": "JavaScript",
+                "color": "#F0DB4F"
+            }
+        ]
+    },
+    {
+        "title": "AROMA'S WEB APP",
+        "description": "Is a management app for a Uruguayan company, it is used to manage products, orders, shipments, employees, etc. I worked 3 months in the project as a fullstack developer. I can't share the Github",
+        "image": "/aromas-logo.png",
+        "technologies": [
+            {
+                "name": "Vue",
+                "color": "#47BA88"
+            },
+            {
+                "name": "CSS",
+                "color": "#2296F3"
+            },
+            {
+                "name": "Laravel",
+                "color": "#FF291B"
+            }
+        ]
+    }
+]

@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: black;
+  background-color: #000000;
   width: 100vw;
   height: 100vh;
 }
@@ -26,9 +25,9 @@ body {
 }
 
 .card-title {
-  font-family: 'Segoe UI', sans-serif;
-  font-weight: 500;
-  font-size: large;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: x-large;
   color: white;
 }
 
@@ -52,9 +51,14 @@ body {
 	transition: all;
 }
 
+.project-card-container {
+	width: 450px;
+	height: 550px;
+}
+
 h3,
 h2,
-p,
+.about-me,
 .icon-container,
 .scroll-animation {
 	animation: fade linear both;

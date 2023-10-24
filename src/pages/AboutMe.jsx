@@ -9,7 +9,7 @@ function AboutMe() {
                         <div className="scroll-animation w-60 h-60 rounded-3xl col-start-1 col-end-2">
                             <img src="/toti.jpeg" alt="" className="rounded-3xl" />
                         </div>
-                        <p className="text-white col-start-2 col-end-4">
+                        <p className="about-me text-white col-start-2 col-end-4">
                             Hi I'm Santiago, since I was a child I have always liked everything related to technology. 
                             Now I am a software developer graduated from Holberton School, there I learned to work with peers, 
                             since the study methodology was by projects and we didn't have teachers, I also improved my soft skills 
@@ -22,7 +22,7 @@ function AboutMe() {
                         <h3 className="subtitles-font text-white mt-8">TECHNOLOGIES</h3>
                         <div className="w-3/4 flex flex-row justify-evenly mt-16">
                             {
-                                icons.map((item, index) => (
+                                icons.map((item) => (
                                     <div className="icon-container">
                                         <img src={item.icon} className="w-10 h-10 hover:cursor-pointer" />
                                         <span className="icon-name" style={{ color: item.color }}>{item.name}</span>

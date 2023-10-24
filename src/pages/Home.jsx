@@ -10,7 +10,7 @@ function Home() {
                 animate={{ opacity: 1}}
                 className="titles-font text-white mb-8"
             >
-                SANTIAGO FERNANDEZ 👨🏽‍💻
+                SANTIAGO FERNANDEZ
             </motion.h1>
             <motion.a
                 href="/my-CV.pdf"
