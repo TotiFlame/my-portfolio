@@ -3,7 +3,7 @@ import icons from '@/components/IconList.json'
 function AboutMe() {
     return (
         <section id="about-me-section" className="w-full h-full flex justify-evenly items-center">
-                <div className="w-full h-full flex justify-center items-center flex-col">
+                <div className="w-full h-full flex justify-center items-center flex-col phone:h-auto">
                     <h3 className="subtitles-font text-white mt-16">WHO AM I?</h3>
                     <div className="grid grid-cols-3 w-5/6 flex-1 items-center justify-center">
                         <div className="scroll-animation w-60 h-60 rounded-3xl col-start-1 col-end-2">

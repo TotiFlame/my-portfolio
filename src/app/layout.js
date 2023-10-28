@@ -1,5 +1,5 @@
 import './globals.css'
-import { IBM_Plex_Mono, Roboto } from 'next/font/google'
+import { IBM_Plex_Mono } from 'next/font/google'
 
 const OW_font = IBM_Plex_Mono({ weight:'400', subsets: ['latin'] })
 

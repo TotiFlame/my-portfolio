@@ -2,33 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 html {
-  scroll-behavior: smooth;
+	  scroll-behavior: smooth;
 }
 
 body {
-  background-color: #000000;
-  width: 100vw;
-  height: 100vh;
+	background-color: #000000;
+  	width: 100vw;
+  	height: 100vh;
+	overflow-y: scroll;
 }
 
 .titles-font {
-  font-family: 'Segoe UI', sans-serif;
-  font-weight: bold;
-  font-size: 60px;
+  	font-family: 'Segoe UI', sans-serif;
+  	font-weight: bold;
+  	font-size: 60px;
 }
 
 .subtitles-font {
-  font-family: 'Segoe UI', sans-serif;
-  font-weight: bold;
-  font-size: 30px;
+  	font-family: 'Segoe UI', sans-serif;
+  	font-weight: bold;
+  	font-size: 30px;
 }
 
 .card-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: x-large;
-  color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: x-large;
+	color: white;
 }
 
 .icon-container {

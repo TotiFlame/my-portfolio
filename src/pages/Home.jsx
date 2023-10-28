@@ -3,14 +3,14 @@ import { color, motion } from "framer-motion"
 
 function Home() {
     return (
-        <section id="home-section" className="w-full h-full flex flex-col justify-center items-center">
+        <section id="home-section" className="w-full h-full flex flex-col justify-center items-center phone:w-screen phone:box-content">
             <motion.h1
                 initial={{ opacity: 0}}
                 transition={{ duration: 3}}
                 animate={{ opacity: 1}}
-                className="titles-font text-white mb-8"
+                className="titles-font text-white mb-8 phone:text-3xl"
             >
-                SANTIAGO FERNANDEZ
+                SANTIAGO FERNÁNDEZ
             </motion.h1>
             <motion.a
                 href="/my-CV.pdf"
