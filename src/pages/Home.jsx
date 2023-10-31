@@ -3,7 +3,7 @@ import { color, motion } from "framer-motion"
 
 function Home() {
     return (
-        <section id="home-section" className="w-full h-full flex flex-col justify-center items-center phone:w-screen phone:box-content">
+        <section id="home-section" className="home w-full h-full flex flex-col justify-center items-center">
             <motion.h1
                 initial={{ opacity: 0}}
                 transition={{ duration: 3}}
