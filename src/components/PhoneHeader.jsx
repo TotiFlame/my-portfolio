@@ -1,9 +1,7 @@
-"use client"
-
-function Header () {
+function PhoneHeader () {
     return (
-        <header className="fixed z-30 top-0 w-full h-12 flex justify-center phone:items-center phone:justify-end">
-            <ul className="w-2/3 h-full flex justify-evenly items-center uppercase phone:invisible">
+        <header className="fixed bg-black w-full h-full invisible phone:visible phone:transition">
+            <ul className="w-full h-full flex flex-col justify-center items-center uppercase gap-20 transition">
                 <li className="header-links">
                     <a href="#home-section">[Home]</a>
                 </li>
@@ -18,4 +16,4 @@ function Header () {
     )
 }
 
-export default Header
+export default PhoneHeader

@@ -4,7 +4,7 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 function ProjectCard ({title, description, image, githubLink, pageLink, technologies}) {
     return (
-        <div className="project-card-container relative mb-44 flex flex-col items-center rounded-xl transition hover:bg-[#292929] phone:w-[300px] phone:h-[500px]">
+        <div className="project-card-container relative mb-32 flex flex-col items-center rounded-xl transition hover:bg-[#292929] phone:w-[300px] phone:h-[500px] last:mb-12">
             <div className="w-full max-h-72 flex justify-center">
                 <img src={image} className="w-full h-full object-cover rounded-xl" />
             </div>

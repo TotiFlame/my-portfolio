@@ -22,8 +22,8 @@ function AboutMe() {
                         <h3 className="subtitles-font text-white mt-12">TECHNOLOGIES</h3>
                         <div className="w-3/4 flex flex-row justify-evenly mt-16 phone:mt-4 phone:flex-wrap">
                             {
-                                icons.map((item) => (
-                                    <div className="icon-container">
+                                icons.map((item, index) => (
+                                    <div className="icon-container" key={index}>
                                         <img src={item.icon} className="w-10 h-10 hover:cursor-pointer" />
                                         <span className="icon-name" style={{ color: item.color }}>{item.name}</span>
                                     </div>
