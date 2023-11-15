@@ -9,7 +9,7 @@ function ProjectCard ({title, description, image, githubLink, pageLink, technolo
                 <img src={image} className="w-full h-full object-cover rounded-xl" />
             </div>
             <span className="card-title my-4 phone:text-center">{title}</span>
-            <div className="max-w-80 h-auto flex justify-center phone:px-1">
+            <div className="max-w-80 h-auto flex justify-center px-4">
                 <p className="text-white text-xs text-center mb-6">{description}</p>
             </div>
             <div className="w-full flex justify-evenly">

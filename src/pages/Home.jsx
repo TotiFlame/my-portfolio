@@ -13,7 +13,7 @@ function Home() {
                 SANTIAGO FERNÁNDEZ
             </motion.h1>
             <motion.a
-                href="/my-CV.pdf"
+                href="/Santiago-Fernandez-CV.pdf"
                 download="Santiago-Fernandez-CV"
                 initial={{ opacity: 0}}
                 transition={{ duration: 3}}
