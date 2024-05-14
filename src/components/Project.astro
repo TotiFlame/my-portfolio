@@ -1,0 +1,31 @@
+---
+interface Props {
+    name: string;
+    description: string;
+    desktopImage: string;
+    mobileImage: string;
+    technologies: string;
+}
+const { name, description, desktopImage, mobileImage, technologies } = Astro.props;
+---
+<div class="w-full flex flex-row justify-between px-12 items-center md:h-72 md:mt-8">
+    <div class="w-3/5">
+        <div class="flex flex-col">
+            <span class="text-white text-2xl mb-4">{name}</span>
+            <p class="text-white mb-2">{description}</p>
+            <span class="text-white text-lg">Technologies</span>
+            <div class="flex flex-row gap-4">
+                <span class="text-[#a4a4a4]">{technologies}</span>
+            </div>
+        </div>
+    </div>
+    <div class="h-3/4 rounded-lg p-2 bg-[#282828] hover:bg-[#313131]">
+        <img src={desktopImage} alt="Project image" class="h-full rounded">
+    </div>
+    {
+        mobileImage ?
+            <div class="h-3/4 rounded-lg p-2 bg-[#282828] hover:bg-[#313131]">
+                <img src={mobileImage} alt="" class="h-full">
+            </div> : null
+    }
+</div>

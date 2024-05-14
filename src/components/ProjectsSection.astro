@@ -1,8 +1,14 @@
 ---
 import '@fontsource/ibm-plex-mono/600.css';
+import Project from '../components/Project.astro';
+import projects from '../components/projects.json';
 ---
 
-<section class="w-full h-[100vh] flex flex-col items-center">
-    <h2 class="text-white text-5xl md:font-medium mt-4">My Projects</h2>
-    <span class="text-[#A4A4A4] text-2xl mt-8">Coming Soon...</span>
+<section id="projects-section" class="w-full h-auto flex flex-col items-center md:gap-10">
+    <h2 class="text-white text-5xl md:font-medium mt-12">My Projects</h2>
+    {
+        projects.map((project, index) => (
+            <Project name={project.name} description={project.description} desktopImage={project.desktopScreenshot} mobileImage={project.mobileScreenshot} technologies={project.technologies}/>
+        ))
+    }
 </section>

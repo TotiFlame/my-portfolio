@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Cabaña la Bartola",
+        "description": "Es un proyecto colaborativo donde participé junto a un amigo. Se trata de una plataforma web dedicada a ofrecer información y productos relacionados con mascotas exóticas como conejos, cuyes y erizos. La plataforma incluye secciones informativas detalladas y una tienda en línea para la compra de alimentos, jaulas y combos especializados.",
+        "desktopScreenshot": "/public/cabanalabartola.png",
+        "mobileScreenshot": "/public/cabana-mobile.jpeg",
+        "technologies": "React, JavaScript, "
+    },
+    {
+        "id": 2,
+        "name": "PetMate Landing Page",
+        "description": "Landing page for my school final project, which was about an App to control a pet feeder, the page was to show the team and what the project is about.",
+        "desktopScreenshot": "/public/petmate-landing.png",
+        "mobileScreenshot": "/public/petmate-mobile.jpeg",
+        "technologies": "React, JavaScript, Tailwind"
+    },
+    {
+        "id": 3,
+        "name": "PetMate App",
+        "description": "This is an App where you can control your PetMate (pet feeder), set a time and amount to feed them, have statistics about your pet's nutrition and status of the stock",
+        "desktopScreenshot": "/public/petmate-app.png",
+        "technologies": "React, Typescript"
+    },
+    {
+        "id": 4,
+        "name": "Aroma's",
+        "description": "Is a management app for a Uruguayan company, it is used to manage products, orders, shipments, employees, etc. I worked 3 months in the project as a fullstack developer. I can't share the Github",
+        "desktopScreenshot": "/public/aromas-logo.png",
+        "technologies": "Vue.js, Laravel"
+    }
+]
