@@ -5,7 +5,7 @@ import projects from '../components/projects.json';
 ---
 
 <section id="projects-section" class="w-full h-auto flex flex-col items-center gap-10">
-    <h2 class="text-[#A4A4A4] text-3xl md:text-5xl md:font-medium mt-12">My Projects</h2>
+    <h2 class="text-[#A4A4A4] text-3xl md:text-4xl md:font-medium mt-12">My Projects</h2>
     {
         projects.map((project, index) => (
             <Project name={project.name} description={project.description} desktopImage={project.desktopScreenshot} mobileImage={project.mobileScreenshot} technologies={project.technologies} link={project.link}/>
